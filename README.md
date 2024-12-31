@@ -1,8 +1,6 @@
-#### Name: KARTHIKEYAN S
-#### Reg.No: 24900102
-
-# Experiment 3: Uploading temperature sensor data in Thing Speak cloud
-
+# Uploading temperature sensor data in Thing Speak cloud
+# NAME: KARTHIKEYAN S
+# REG NO: 212224230116
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
 
@@ -74,22 +72,22 @@ Automatically act on your data and communicate using third-party services like T
 
 
 # PROGRAM:
-```c
+```
 #include"ThingSpeak.h"
 #include <WiFi.h>
 #include "DHT.h"
 
-char ssid[]="xx";
-char pass[]="xyz";
+char ssid[]="Karthi";
+char pass[]="kar00447";
 
 const int t=25;
 WiFiClient client;
 DHT dht(25, DHT11);
 
-unsigned long myChannelField = 2492690;
+unsigned long myChannelField = 2755068
 const int ChannelField1 = 1 ; 
 const int ChannelField2 = 2 ;
-const char *myWriteAPIKey="RF8WCRR152XWWRQW";
+const char *myWriteAPIKey="M6MH20TFKGOHS4UM";
 
 void setup()
 {
@@ -131,16 +129,19 @@ void loop()
 ```
 
 # CIRCUIT DIAGRAM:
-![IoT temperature censor](https://github.com/user-attachments/assets/66d5d7f3-6442-4bdd-8b25-ffd094a79243)
+
+![image](https://github.com/user-attachments/assets/cc0f160c-5635-4294-bf78-f4846fca301c)
 
 
 # OUTPUT:
-## THINGSPEAK
-![image](https://github.com/user-attachments/assets/bc32ceff-5673-4ba1-8a06-2edb6d50c6d0)
+
+![image](https://github.com/user-attachments/assets/e853f595-cf20-4075-a5b9-31c6e524be7f)
 
 
+![image](https://github.com/user-attachments/assets/64786b95-483c-4a45-b5f6-d46198d8c759)
 
 
 # RESULT:
 
 Thus the temperature sensor values are updated in the Thing speak using ESP32 controller.
+
