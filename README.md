@@ -1,6 +1,6 @@
-# Uploading temperature sensor data in Thing Speak cloud
 # NAME: KARTHIKEYAN S
 # REG NO: 212224230116
+# Uploading temperature sensor data in Thing Speak cloud
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
 
